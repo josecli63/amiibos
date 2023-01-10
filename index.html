@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jose Climent">
+    <meta name="description"
+        content="Este sitio web es una réplica de la página oficial de Nintendo para Animal Crossing, realizada con Bootstrap 5">
+    <meta name="keywords" content="animal crossing, nintendo, juegos, vídeos">
+    <!-- Título -->
+    <title>Animal Crossing</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.jpg" width="200" alt="Logo Nintendo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fs-5" id="mainMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Summer Pack</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Registro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/slide01.jpg" alt="Imagen slide 1" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide02.jpg" alt="Imagen slide 1" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide03.jpg" alt="Imagen slide 1" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Ribbon -->
+    <div id="ribbon" class="container-fluid">
+        <div id="birthday" class="container w-50 ps-5 rounded-4">
+            <div class="row align-items-center">
+                <div class="col-sm p-3">
+                    <img src="./img/image01.png" class="w-75 mx-auto d-block" alt="Imagen Samson">
+                </div>
+                <div class="col-sm p-3 text-light text-center">
+                    <p class="text-warning h3">Hoy es</p>
+                    <h4 class="h2 text-shadow">el cumpleaños de Apollo</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Separador Ribbon -->
+    <div id="separator-ribbon">
+        <div class="content bg-warning"></div>
+    </div>
+    <!-- Juegos -->
+    <div id="games">
+        <div class="container p-5">
+            <div class="row pt-5">
+                <h3 class="text-center h1 py-5">Juegos destacados de Animal Crossing</h3>
+            </div>
+            <div class="row">
+                <div class="col mx-auto">
+                    <div class="card mb-5 card-border">
+                        <img src="./img/card01.png" alt="Imagen juego 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Juego</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                                expedita. Corporis sit, in provident ad ipsum blanditiis deserunt corrupti iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="card mb-5 card-border">
+                        <img src="./img/card02.jpg" alt="Imagen juego 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Juego</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                                expedita. Corporis sit, in provident ad ipsum blanditiis deserunt corrupti iure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="card mb-5 card-border">
+                        <img src="./img/card03.jpg" alt="Imagen juego 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título del Juego</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+                                expedita. Corporis sit, in provident ad ipsum blanditiis deserunt corrupti iure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col">
+                    <h3 class="text-center" style="color:var(--bs-primary-text)">Más juegos en Nintendo.com:</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2"><a href="#">Nintendo Switch</a></div>
+                <div class="col-2"><a href="#">Nintendo 3DS</a></div>
+                <div class="col-2"><a href="#">Wii U</a></div>
+                <div class="col-2"><a href="#">Dispositivos Inteligentes</a></div>
+                <div class="col-2"><a href="#">Retro</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Separador Animal Crossing -->
+    <div id="separator-amiibos">
+        <div class="content bg-success"></div>
+    </div>
+
+    <!-- Animal Crossing -->
+    <div id="amiibos" class="px-5 pb-5 bg-success">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center text-white text-shadow h1">Figuras Amiibo™ destacadas</h2>
+            </div>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <div class="col-sm text-center">
+                    <img src="./img/figure01.png" alt="Imagen figura 1" class="img-fluid amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Canela</span></div>
+                </div>
+                <div class="col-sm text-center">
+                    <img src="./img/figure02.png" alt="Imagen figura 2" class="img-fluid amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Capitán</span></div>
+                </div>
+                <div class="col-sm text-center">
+                    <img src="./img/figure03.png" alt="Imagen figura 3" class="img-fluid amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Fran</span></div>
+                </div>
+                <div class="col-sm text-center">
+                    <img src="./img/figure04.png" alt="Imagen figura 4" class="img-fluid amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Tendo y Nendo</span></div>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col text-center">
+                    <button class="btn btn-warning btn-lg rounded-pill fw-bold p-3">Ver el catálogo de figuras</button>
+                </div>
+            </div>
+            <div id="separator-amiibos-footer"></div>
+        </div>
+    </div>
+
+    <!-- Play Nintendo -->
+    <div id="play">
+        <div class="container-sm p-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 d-none d-md-block">
+                    <img src="./img/isabelle.png" alt="Imagen Canela" class="img-fluid">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <h3 class="text-center h1">Canela y sus amigos en Play Nintendo</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col p-1">
+                            <div class="card bg-warning text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="./img/ph-01.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional
+                                                content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-1">
+                            <div class="card bg-danger text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional
+                                                content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/ph-01.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-1">
+                            <div class="card bg-success text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="./img/ph-01.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional
+                                                content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-1">
+                            <div class="card bg-primary text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a
+                                                natural lead-in to additional
+                                                content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/ph-01.jpg" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="p-5">
+        <div class="container w-50 pt-5">
+            <div class="row row-cols-md-2 justify-content-center">
+                <div class="col text-center">
+                    <button class="btn btn-lg btn-warning rounded-pill p-3 shadow-sm fw-bold w-100">Atención al
+                        cliente</button>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <div class="col text-center fw-light">
+                    <p>Usa la función de control parental para restringir el acceso al modo 3D para niños de 6 años o
+                        menores.</p>
+                    <p>Se requiere una conexión a internet para acceder a las funciones en línea. Para más información
+                        visita
+                        support.nintendo.com.</p>
+                    <p>Los juegos y las figuras amiibo se venden por separado. Las figuras no se muestran en su tamaño
+                        real y su diseño puede
+                        variar. La compatibilidad y funcionalidad del amiibo pueden variar dependiendo del juego. Visita
+                        amiibo.com para ver
+                        detalles más específicos sobre la funcionalidad del amiibo.</p>
+                    <p>© 2001 - 2023 Nintendo. Nintendo properties are trademarks of Nintendo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
